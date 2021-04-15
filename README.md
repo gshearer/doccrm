@@ -71,4 +71,5 @@ This screen allows the user to manage a list of Distributors that are used to fu
 ![Disty](https://user-images.githubusercontent.com/7363828/114941628-66b98900-9e11-11eb-928f-ebf5ce810581.jpg)
 
 # DISTRIBUTOR EDIT
+This screen allows you to manage details about a specific distributor. Again, these are just text objects within the DB so they are unlimited.
 ![Distributor Edit](https://user-images.githubusercontent.com/7363828/114941629-66b98900-9e11-11eb-80a6-6d3a85ac6a1b.jpg)
