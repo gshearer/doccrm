@@ -53,6 +53,9 @@ This is a simple screen where you can define technologies which can be associate
 
 # TECHNOLOGY EDIT
 Here you can manage the technologies and assign a distributor to each. You can also manage notes for this technology.
+
+## This is one of the most important screens ##
+At the bottom this is where you will see a list of *TALKING POINTS* that the background process has found while searching the web. This is the biggest reason I wrote this application. I wanted an automated system that gives me good reason to inform both my rep and my customer about important items related to the products & services they use. Not only does this help keep your relationships fresh and active --- but also aids in winning additional business!
 ![Technology Edit](https://user-images.githubusercontent.com/7363828/114941635-67521f80-9e11-11eb-9980-777a6badd4c0.jpg)
 
 # MANUFACTURERS
