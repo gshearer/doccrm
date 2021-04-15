@@ -13,7 +13,7 @@ I have plans to expand this search for things like End-of-life bulletins, Manufa
 
 The goal is to enhance my value to both the sales reps that I assist and the customers that we serve.
 
-Disclaimer :)
+## DISCLAIMER ##
 
 This should have been written in PHP. It's written in C because that's what I know, but it's certainly not ideal for generating HTML :) However, it's fast!
 
@@ -49,13 +49,13 @@ This is actually part of the same customer edit screen which is too big for one 
 
 # TECHNOLOGIES
 This is a simple screen where you can define technologies which can be associated with customers. Each technology can be clicked on to manage further details (see below)
+
+## This is one of the most important screens ##
+At the bottom this is where you will see a list of *TALKING POINTS* that the background process has found while searching the web. This is the biggest reason I wrote this application. I wanted an automated system that gives me good reason to inform both my rep and my customer about important items related to the products & services they use. Not only does this help keep your relationships fresh and active --- but also aids in winning additional business!
 ![Technologies](https://user-images.githubusercontent.com/7363828/114941633-67521f80-9e11-11eb-9123-d804024de7b2.jpg)
 
 # TECHNOLOGY EDIT
 Here you can manage the technologies and assign a distributor to each. You can also manage notes for this technology.
-
-## This is one of the most important screens ##
-At the bottom this is where you will see a list of *TALKING POINTS* that the background process has found while searching the web. This is the biggest reason I wrote this application. I wanted an automated system that gives me good reason to inform both my rep and my customer about important items related to the products & services they use. Not only does this help keep your relationships fresh and active --- but also aids in winning additional business!
 ![Technology Edit](https://user-images.githubusercontent.com/7363828/114941635-67521f80-9e11-11eb-9980-777a6badd4c0.jpg)
 
 # MANUFACTURERS
