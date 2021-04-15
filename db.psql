@@ -1,0 +1,54 @@
+
+CREATE TABLE doccrm_todo (
+  id serial primary key,
+  "timestamp" timestamp with time zone,
+  customer integer NOT NULL,
+  priority integer NOT NULL,
+  todo text NOT NULL
+);
+
+CREATE TABLE doccrm_cust (
+  id serial primary key,
+  "timestamp" timestamp with time zone,
+  name varchar(50) NOT NULL,
+  contacts text,
+  notes text
+);
+
+CREATE TABLE doccrm_journal (
+  id serial primary key,
+  "timestamp" timestamp with time zone,
+  customer integer NOT NULL,
+  entry text
+);
+
+CREATE TABLE doccrm_tech (
+  id serial primary key,
+  name varchar(40) NOT NULL,
+  disty integer,
+  notes text
+);
+
+CREATE TABLE doccrm_custtech (
+  cust integer NOT NULL,
+  tech integer NOT NULL
+);
+
+CREATE UNIQUE INDEX custtech_uni_idx ON doccrm_custtech (cust, tech);
+
+CREATE TABLE doccrm_disty (
+  id serial primary key,
+  "timestamp" timestamp with time zone,
+  name varchar(50) NOT NULL,
+  contacts text,
+  notes text
+);
+
+CREATE TABLE doccrm_oem (
+  id serial primary key,
+  "timestamp" timestamp with time zone,
+  name varchar(50) NOT NULL,
+  contacts text,
+  notes text
+);
+
